@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    display: block; /* 防止出现滚动条 */
+    width: 100vw;
+    height: 100vh;
+    background-color: #708090;  /* 更深的灰蓝色（slate gray） */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} 
